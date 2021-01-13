@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color:#363958;
+}
+
+button i{
+    margin-right: 10px;
+}
+header{
+    background:#FFF9F4;
+}
+header nav .navbar-brand{
+    color:black;
+    font-weight: bold;
+}
+header nav span{
+    color:orange;
+}
+.nike-nav .navbar-nav .nav-link{
+    color:black;
+}
+.banner-area .first{
+    color:#EB7847;
+}
+.banner-area .last{
+    color:#363958;
+}
+.banner-area h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner-area button,#shoes button{
+    font-size: 14px;
+    padding:10px 20px;
+    background: #3C4EF0;
+  
+}
+
+#shoes .shoe-images{
+    width:320px;
+    height:320px;
+    background-color: rgba(224, 223, 223, 0.952) ;
+    margin: 5px auto ;
+    border-radius: 15px;
+
+}
+#shoes .shoe-images .img-custom{
+    max-width:260px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#shoes h5{
+    font-weight: bold;
+}
+#shoes .shoes-card-footer{
+    border-top:0 ;
+    background-color: #fff;
+}
+@media (min-width: 992px){
+    .nike-nav .navbar-nav .nav-link {
+       
+        padding-left: 3.5rem ;
+        
+    }
+}
