@@ -36,7 +36,8 @@ header nav span{
 
 .banner-area button,
 #shoes button,
-#formal-shoes button{
+#formal-shoes button,
+.best-selling-shoes button{
     font-size: 14px;
     padding:10px 20px;
     background: #3C4EF0;
@@ -87,17 +88,45 @@ header nav span{
     height:120px;
     margin:20px 10px;
 }
+.women .shoe-images .img-custom,
+.kids .shoe-images .img-custom,
+.new-product .shoe-images .img-custom{
+    max-width: 200px;
+    height:200px;
+    /* margin:20px 10px; */
+}
 .best-selling-shoes .best-sell{
     transition:box-shadow 0.2s;
 }
 .best-selling-shoes .best-sell:hover {
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.397) !important;
 }
+.follow-us li{
+    margin:0 20px;
+}
+.follow-us li:last-child a{
+    color:red;
+}
+.follow-us i{
+    font-size: 35px;
+
+}
+/* .follow-us{
+    background:#ecf0f1;
+} */
+.contact-us{
+    background:rgb(206, 204, 204);
+    max-width: 88.5% !important;
+}
+/* .copyright-area {
+    color:#fff;
+    background:#2c3e50;
+} */
 
 @media (min-width: 992px){
     .nike-nav .navbar-nav .nav-link {
        
-        padding-left: 3.5rem ;
+        padding-left: 2.5rem ;
         
     }
 }
