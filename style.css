@@ -14,7 +14,7 @@ header{
     background:#FFF9F4;
 }
 header nav .navbar-brand{
-    color:black;
+    color:#363958;
     font-weight: bold;
 }
 header nav span{
@@ -34,14 +34,17 @@ header nav span{
     font-size: 50px;
 }
 
-.banner-area button,#shoes button{
+.banner-area button,
+#shoes button,
+#formal-shoes button{
     font-size: 14px;
     padding:10px 20px;
     background: #3C4EF0;
+    border-radius:8px;
   
 }
 
-#shoes .shoe-images{
+#shoes .shoe-images,#formal-shoes .shoe-images{
     width:320px;
     height:320px;
     background-color: rgba(224, 223, 223, 0.952) ;
@@ -49,19 +52,48 @@ header nav span{
     border-radius: 15px;
 
 }
-#shoes .shoe-images .img-custom{
+
+#formal-shoes .shoe-images{
+    background:transparent;
+}
+
+#shoes .shoe-images .img-custom,
+#formal-shoes .shoe-images .img-custom{
     max-width:260px;
     margin-left: 40px;
     margin-top: 30px;
 }
 
-#shoes h5{
+#shoes h5,
+#formal-shoes h5{
     font-weight: bold;
 }
-#shoes .shoes-card-footer{
+#shoes .shoes-card-footer,
+#formal-shoes .shoes-card-footer{
     border-top:0 ;
     background-color: #fff;
 }
+#shoes .price,
+#formal-shoes .price,
+.best-selling-shoes .price{
+    color:#FD7E14;
+}
+.best-selling-shoes img{
+    max-width:250px;
+
+}
+.best-selling-shoes .shoe-images .img-custom{
+    max-width: 200px;
+    heigth:400px;
+    margin:20px 10px;
+}
+.best-selling-shoes .best-sell{
+    transition:box-shadow 0.2s;
+}
+.best-selling-shoes .best-sell:hover {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.397) !important;
+}
+
 @media (min-width: 992px){
     .nike-nav .navbar-nav .nav-link {
        
