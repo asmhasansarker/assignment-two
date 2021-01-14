@@ -130,3 +130,34 @@ header nav span{
         
     }
 }
+
+@media (max-width: 576px){
+   
+    .banner-area .intro-text .text{
+        width:100% !important;
+    }
+    #shoes h2,
+    #formal-shoes h2{
+        text-align: center;
+    }
+    #shoes .shoe-images, #formal-shoes .shoe-images{
+        width:450px;
+    }
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 75% !important;
+    }
+  
+    #formal-shoes .shoe-images .img-custom {
+        max-width: 90%;
+        margin-left: 10px;
+        margin-top: 10px;
+    } 
+    #shoes .shoe-images .img-custom
+    {
+        max-width: 70%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+
+}
