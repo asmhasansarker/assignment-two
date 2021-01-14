@@ -70,8 +70,8 @@ header nav span{
 }
 #shoes .shoes-card-footer,
 #formal-shoes .shoes-card-footer{
-    border-top:0 ;
-    background-color: #fff;
+    border-top:0 !important;
+    background-color: #fff !important;
 }
 #shoes .price,
 #formal-shoes .price,
@@ -84,7 +84,7 @@ header nav span{
 }
 .best-selling-shoes .shoe-images .img-custom{
     max-width: 200px;
-    heigth:400px;
+    height:120px;
     margin:20px 10px;
 }
 .best-selling-shoes .best-sell{
